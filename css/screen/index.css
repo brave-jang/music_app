@@ -1,0 +1,139 @@
+.artist {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.artist-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.artist-name {
+  margin-top: 30px;
+  font-weight: 900;
+  font-size:20px;
+}
+
+.artist-genre {
+  margin-top: 20px;
+  color: dimgray;
+}
+
+.button-bundle {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 30px;
+}
+
+.button-bundle__shuffle {
+  color: white;
+  background-color: black;
+  width: 120px;
+  height: 40px;
+  margin-right: 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-bundle__shuffle:focus {
+  border: none;
+  outline: none;
+}
+
+.button-bundle__heart {
+  color: white;
+  background-color: black;
+  width: 120px;
+  height: 40px;
+  margin-right: 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-bundle__heart:focus {
+  border: none;
+  outline: none;
+}
+
+.button-bundle__heart p {
+  margin-left: 5px;
+}
+
+.song-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  box-shadow: 3px 3px 5px gray;
+  margin: 15px auto 15px auto;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.song-list__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+}
+
+.song-list__text {
+  text-align: left;
+  width: 330px;
+}
+
+.song-list__text-title {
+  font-weight: 800;
+}
+
+.song-list__text-artist {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.song-list i {
+  font-size: 20px;
+  color: darkgrey;
+}
+
+.play-box {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 90%;
+  width: 90%;
+  margin: 0 5%;
+  height: 70px;
+  background-color: #323232;
+  color: white;
+  border-radius: 50px;
+}
+
+.play-box__list {
+  margin-left: 30px;
+  padding: 10px 0;
+}
+
+.play-box__list-title {
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.play-box__list-artist {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.play-box__button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  width: 20%;
+}

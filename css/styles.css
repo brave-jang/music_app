@@ -1,0 +1,8 @@
+@import "screen/index.css";
+@import "screen/play.css";
+
+@import "components/nav-bar.css";
+
+* {
+    box-sizing: border-box;
+}

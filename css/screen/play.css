@@ -1,0 +1,85 @@
+.song {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.song-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.song-title {
+    font-size: 25px;
+    font-weight: 800;
+    margin: 50px 0 30px;
+}
+
+.song-artist {
+    color: darkgray;
+}
+
+.progress {
+    margin: 0 30px;
+}
+
+.progress_clock {
+    text-align: right;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: darkgrey;
+}
+
+@keyframes slidein {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+.progress-bar {
+    background-color: darkgray;
+    height: 7px;
+    border-radius: 10px;
+}
+
+.progress-bar__dot {
+    animation-name: slidein;
+    animation-duration: 120s;
+    background-color: black;
+    height: 7px;
+    border-radius: 10px;
+}
+
+.btn-class {
+    margin: 50px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+i:first-child {
+    font-size: 18px;
+    color: darkgray;
+}
+
+i:nth-child(2) {
+    font-size: 25px;
+}
+
+i:nth-child(3) {
+    font-size: 70px;
+}
+
+i:nth-child(4) {
+    font-size: 25px;
+}
+
+i:last-child {
+    font-size: 18px;
+    color: darkgray;
+}
